@@ -1,0 +1,74 @@
+.navigation{
+    background-color:blue;
+    margin-bottom: 9px;
+    height:20px;
+    width: auto;
+}
+.people{
+    border: 2px solid black; 
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+.peoplephoto{
+    width: 180px;
+    height:180px;
+    border-radius: 50%;
+}
+.homepage{
+    background-image: url('mainpage\ background\ image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#information {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.person-box {
+    flex: 0 1 calc(30% - 20px); 
+    max-width: calc(30% - 20px); 
+    box-sizing: border-box; 
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0880e9; 
+}
+
+.navigation {
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:black;
+    text-decoration: underline;
+    transform: scale(1.3);
+    background-color: yellow;
+    transition: transform 1.5s;
+    transition: background-color 1.5s;
+}
+
